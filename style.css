@@ -1,0 +1,356 @@
+*{
+font-family: 'Zen Kaku Gothic New', sans-serif;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+color: black;
+list-style: none;
+
+}
+
+HTML SCSSResult Skip Results Iframe
+EDIT ON
+
+/*リセットcss */
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, ul {
+  margin: 0;
+  padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*リセットcss ここまで */
+
+header{
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+   line-height: 80px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 180px;
+   position: fixed;
+   width: 100vw;
+   background-color:#B5495B;
+}
+
+header :hover{
+    color: #fff;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    padding: 0 120px;
+    background-color:#B5495B;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px;
+    background-color:#B5495B;
+}
+
+.favorite{
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background:url(images/background_3.png)no-repeat center top;;
+    background-size:cover;                 /* 画像のサイズを指定    */
+    width:100%;    
+    background-color: rgba(255, 224, 245, 0.8);                          /* 横幅のサイズを指定    */
+   
+}
+
+.favorite h2{
+    text-align: left;
+font-size: 64px;
+letter-spacing: 0.1em;
+color: white;
+border-bottom: 3px solid white
+display inline-block;
+}
+
+.firstView h1{
+    font-size:240px;
+    text-align: center;
+    padding-top:320px;
+    color: rgb(255, 255, 255);
+}
+
+.firstView p{
+    color: #fff;
+    font-size: 120px;
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 16px;
+}
+
+.favorite-content{
+    width: 320px;
+    height: 480px;
+    padding: 40px;
+   
+}
+
+.favorite-content h3{
+size: 24px;
+margin-top: 16px;
+}
+
+.favorite-content p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.firstView p{
+    font-size:16px;
+    text-align: center;
+}
+
+.firstView {
+    z-index: 1;
+    position: relative;
+    background:url(images/background_2.png)no-repeat center top;;
+    background-size:cover;                 /* 画像のサイズを指定    */
+    width:100%;    
+    background-color: rgb(255, 255, 255,0.8);                          /* 横幅のサイズを指定    */
+   opacity:0.7;
+}
+
+
+.about{
+    padding: 180px;
+    font-size: 24px;
+    background-color: #f9e3e7;
+}
+
+.profile h3{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.profile image{
+   width: 480px;
+   height: 270px;
+   margin-left: 100px;
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img{
+width: 480px;
+height: 270px;
+border-radius: 16px;
+}
+
+.school-club h3{
+margin: 8px;
+font-size: 32px;
+}
+
+.school-club p{
+margin-top: 16px;
+font-size: 24px;
+text-align: center;
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom: solod;
+    margin-top: 32px;
+}
+
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #f5e8ee;
+    
+}
+
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+   text-align: justify;
+   margin-bottom: 60px;
+}
+
+.works-contents{
+    display: flex;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 40px;
+    box-shadow: 0 0 5px #cccccc;
+    text-align: left;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3{
+    font-size: 28px;
+}
+
+.works-contents p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-content2 img{
+    padding-top: 80px;
+}
+
+.works-text{
+    margin: 32px;
+}
+
+
+.contact{
+    padding: 180px;
+   
+    background:url(images/background_4.png)no-repeat center top;;
+    background-size:cover;                 /* 画像のサイズを指定    */
+    width:100%;    
+    background-color: rgb(255, 255, 255,0.8);                          /* 横幅のサイズを指定    */
+   
+}
+
+.contact h2{
+    font-size: 64px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+
+.contact a{
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.contact a :hover{
+    opacity: 50%;
+}
+
+.contact .twitter{
+    background-color: rgb(0, 172, 238,0.7);
+}
+
+.contact .instagram{
+    background-color: rgb(209, 16, 126,0.7);
+}
+
+.contact .website{
+    background-color: rgb(51, 51, 51,0.7);
+}
+
+
+ .twitter :hover{
+    background-color: rgb(0, 172, 238);
+}
+
+ .instagram :hover{
+    background-color: rgb(209, 16, 126);
+}
+
+ .website :hover{
+    background-color: rgb(51, 51, 51);
+}
+
+
+
+
+
+.sns{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
